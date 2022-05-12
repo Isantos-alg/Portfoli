@@ -38,7 +38,7 @@ h1{
   }
 
   .puerta:hover{
-    background-image: url("img/abierto.png");
+    background-image: url("Img/abierto.png);
     background-size: 100%;
     opacity: 75%;
   }
