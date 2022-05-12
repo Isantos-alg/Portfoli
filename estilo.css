@@ -5,7 +5,7 @@
 }
 
 body{
-  background-image: url("img/estrellas.jpg");
+  background-image: url("Img/estrellas.jpg");
   background-size: cover;
 }
 
@@ -33,7 +33,7 @@ h1{
   height: 520px;
   float: left;
   margin: 2.5%;
-  background-image: url("img/tardis.png");
+  background-image: url("Img/tardis.png");
   background-size: 100%;
   }
 
