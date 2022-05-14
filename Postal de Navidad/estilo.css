@@ -21,7 +21,7 @@ background-color: #252440;
   height: 800px;
   width: 600px;
   float: left;
-  background-image: url("img/rr.png");
+  background-image: url("Img/rr.png");
   margin: 10px;
   margin-top: 20px;
 }
@@ -29,7 +29,7 @@ background-color: #252440;
   height: 800px;
   width: 600px;
   float: left;
-  background-image: url("img/ra.png");
+  background-image: url("Img/ra.png");
   margin: 10px;
   margin-top: 20px;
 }
@@ -37,16 +37,16 @@ background-color: #252440;
     height: 800px;
     width: 600px;
     float: left;
-    background-image: url("img/rv.png");
+    background-image: url("Img/rv.png");
     margin: 10px;
     margin-top: 20px;
   }
   #rr:hover{
-    background-image: url("img/rd.png");
+    background-image: url("Img/rd.png");
   }
 #ra:hover{
-  background-image:url("img/ad.png");
+  background-image:url("Img/ad.png");
 }
 #rv:hover{
-  background-image: url("img/vd.png");
+  background-image: url("Img/vd.png");
 }
