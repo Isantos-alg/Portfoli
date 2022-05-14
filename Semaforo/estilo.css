@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+}
+
+#semaforo{
+  width: 300px;
+  height: 600px;
+  background-color: yellow;
+  margin: 0 auto;
+}
+
+.luces{
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: 60px;
+  left: 75px;
+  border-radius: 50%;
+
+}
+
+#rojo{
+  background-color: red;
+}
+
+
+#ambar{
+  background-color: orange;
+}
+
+
+#verde{
+  background-color: green;
+}
+
+
+#poste{
+  margin: 0 auto;
+  height: 800px;
+  width: 50px;
+  background-color: yellow;
+}
+
+@media screen and (max-width:1200px){
+  #rojo{
+    opacity: 0.2;
+  }
+}
+
+@media screen and (max-width:787px){
+  #ambar{
+    opacity: 0.5;
+  }
+}
+@media screen and (min-width:1200px){
+  #ambar{
+    opacity: 0.5;
+  }
+}
+
+@media screen and (max-width:320px){
+  #verde{
+    opacity: 0.2;
+  }
+}
+
+@media screen and (min-width:787px){
+  #verde{
+    opacity: 0.2;
+  }
+}

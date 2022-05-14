@@ -1,0 +1,149 @@
+body{
+  background-color: cyan;
+}
+#pelo{
+width: 550px;
+height: 800px;
+background-color: #7A3F00;
+border-radius:50% 50% 50% 50% / 35% 35% 65% 65%;
+position: relative;
+margin: 80px auto;
+}
+
+#cara{
+  width: 500px;
+  height: 600px;
+  background-color: #FFE8D0;
+  border-radius: 50% 50% 50% 50% / 35% 35% 65% 65%;
+  position: absolute;
+  border: 20px solid #7A3F00;
+}
+
+.ceja{
+  width: 180px;
+  height: 100px;
+  border: 8px solid #7A3F00;
+  border-radius: 50%;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  position: relative;
+  float: left;
+  top: 150px;
+  left: 40px;
+  margin-right: 50px;
+}
+
+
+.ojos{
+  position: absolute;
+  width: 500px;
+  z-index: 10;
+  left: 60px;
+  top: 200px;
+}
+
+.ojo{
+  background-color: #fff;
+  position: relative;
+  width: 150px;
+  height: 125px;
+  border-radius: 50%;
+  float: left;
+  margin-right: 80px;
+  border-top: 15px solid #000;
+  border-right: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-bottom: 5px solid #000;
+}
+
+.ojo_externo{
+  width: 100px;
+  height: 95px;
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #A15000;
+  border-radius: 50%;
+  border: 3px solid #000;
+  position:absolute;
+}
+
+.ojo_interno{
+  width: 60px;
+  height: 60px;
+  background-color: #000;
+  border-radius: 50%;
+  margin-top: 18px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.brillo{
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: -50px;
+}
+
+#flequillo{
+  width: 500px;
+  height: 250px;
+  background-color: #7A3F00;
+  border-radius:  50% 50% 50% 50% / 35% 100% 0% 65%  ;
+  position: absolute;
+  z-index: 50;
+  margin-left: 45px;
+  -moz-transform: rotate(15deg);
+-webkit-transform: rotate(15deg);
+-o-transform: rotate(15deg);
+-ms-transform: rotate(15deg);
+transform: rotate(15deg);
+}
+
+#nariz{
+  width: 500px;
+  height: 500px;
+  clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+  border-right: 10px solid #BDA690;
+  margin-top: 125px;
+  margin-left: -250px;
+  position: relative;
+}
+
+#boca{
+width: 220px;
+height: 90px;
+margin-left: 140px;
+margin-top: -180px;
+clip-path: circle(50% at 50% 0);
+background-color: #600000;
+position: absolute;
+}
+
+#dientes{
+  width: 220px;
+  height: 25px;
+  background-color: #fff;
+  position: relative;
+}
+
+#lengua{
+  width: 200px;
+  height: 90px;
+  margin-left: 5px;
+  background-color: #CA0000;
+  clip-path: circle(50% at 50% 100%);
+  position: relative;
+}
+#cuerpo{
+  width: 400px;
+  height: 550px;
+  background-color: #000;
+  position: absolute;
+  border-radius: 50% 50% 100% 0% / 100% 100% 0% 0%;
+  margin-top: 600px;
+  margin-left: 70px;
+  z-index: 5;
+}
